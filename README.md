@@ -68,13 +68,13 @@ I benchmarked four generations of NLP on the same job: classifying IMDb movie re
 <tr>
 <td width="50%" valign="top">
 
-**⚡ [Predicting power plant output from the weather](https://github.com/rolandkeszi/power-plant-output-prediction)** · [**case study**](https://rolandkeszi.github.io/projects/power-plant.html)
+**⚡ [Estimating power plant output with regression models](https://github.com/rolandkeszi/power-plant-output-prediction)** · [**case study**](https://rolandkeszi.github.io/projects/power-plant.html)
 
-<a href="https://rolandkeszi.github.io/projects/power-plant.html"><img src="https://raw.githubusercontent.com/rolandkeszi/power-plant-output-prediction/main/figures/03_model_comparison.png" width="100%" alt="Test RMSE of seven regression models; gradient boosting is best at 3.21 MW"></a>
+<a href="https://rolandkeszi.github.io/projects/power-plant.html"><img src="https://raw.githubusercontent.com/rolandkeszi/power-plant-output-prediction/main/figures/pp_model_comparison.png" width="100%" alt="Test R² of the five regression models compared in the study"></a>
 
-Seven regression models compared on 9,568 hours of plant operation. **Gradient boosting reaches R² = 0.965** and 27% less error than linear regression. SHAP shows that ambient temperature drives about 71% of the prediction.
+Linear, polynomial, lasso, ridge and neural network models were compared on 8,568 hours of plant operation. **An interpretable linear model (R² = 0.93)** was chosen and validated with 5-fold cross-validation and on an independent sample of 1,000 hours (F-test of residual variances, F = 1.016). Each extra °C of ambient temperature costs about 2 MW.
 
-<sub>Python · scikit-learn · SHAP · statsmodels</sub>
+<sub>Python · scikit-learn · TensorFlow · IBM SPSS</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -114,7 +114,7 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 | Project | What it does | Stack |
 |---|---|---|
 | 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/llm-sentiment-benchmark) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
-| ⚡ [**Power plant output prediction**](https://github.com/rolandkeszi/power-plant-output-prediction) | Seven regression models predict a combined cycle plant's output from four weather variables. The best is explained with SHAP and followed by an error analysis. | Python, scikit-learn, SHAP, statsmodels |
+| ⚡ [**Power plant output estimation**](https://github.com/rolandkeszi/power-plant-output-prediction) | Regression models estimate a combined cycle plant's output from four ambient variables. Variable selection was done in SPSS, and the final linear model was validated on an independent sample. | Python, scikit-learn, TensorFlow, SPSS |
 | ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
 | 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/bls-covid-labour-market) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
