@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="#featured-from-lexicons-to-frontier-llms--one-sentiment-task-12-models"><img alt="LLM benchmark" src="https://img.shields.io/badge/LLM%20benchmark-12%20models-8250df?style=flat-square&logo=openai&logoColor=white"></a>
-  <a href="https://rolandkeszi-sentiment-usair.streamlit.app"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
+  <a href="https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
   <a href="#projects"><img alt="Projects" src="https://img.shields.io/badge/projects-Python%20%7C%20R-0969da?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
@@ -64,7 +64,7 @@ I benchmarked four generations of NLP on the same job: classifying IMDb movie re
 <tr>
 <td width="50%" valign="top">
 
-**✈️ [US airline tweets: sentiment dashboard](https://github.com/rolandkeszi/USAir)** · [**live demo**](https://rolandkeszi-sentiment-usair.streamlit.app)
+**✈️ [US airline tweets: sentiment dashboard](https://github.com/rolandkeszi/USAir)** · [**live demo**](https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en)
 
 <a href="https://github.com/rolandkeszi/USAir"><img src="https://raw.githubusercontent.com/rolandkeszi/USAir/main/assets/sentiment-by-airline.svg" width="100%" alt="Sentiment split per US airline"></a>
 
