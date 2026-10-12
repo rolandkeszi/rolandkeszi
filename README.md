@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://rolandkeszi.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-rolandkeszi.github.io-16181d?style=flat-square&logo=githubpages&logoColor=white"></a>
   <a href="#featured-from-lexicons-to-frontier-llms--one-sentiment-task-12-models"><img alt="LLM benchmark" src="https://img.shields.io/badge/LLM%20benchmark-12%20models-8250df?style=flat-square&logo=openai&logoColor=white"></a>
   <a href="https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/rolandkeszi/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Roland%20Keszi-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
@@ -61,8 +62,21 @@ I benchmarked four generations of NLP on the same job: classifying IMDb movie re
 
 ### Projects
 
+<p>📂 <b>Full case studies with methods, results and explanations: <a href="https://rolandkeszi.github.io">rolandkeszi.github.io</a></b></p>
+
 <table>
 <tr>
+<td width="50%" valign="top">
+
+**⚡ [Predicting power plant output from the weather](https://github.com/rolandkeszi/power-plant-output-prediction)** · [**case study**](https://rolandkeszi.github.io/projects/power-plant.html)
+
+<a href="https://rolandkeszi.github.io/projects/power-plant.html"><img src="https://raw.githubusercontent.com/rolandkeszi/power-plant-output-prediction/main/figures/03_model_comparison.png" width="100%" alt="Test RMSE of seven regression models; gradient boosting is best at 3.21 MW"></a>
+
+Seven regression models compared on 9,568 hours of plant operation. **Gradient boosting reaches R² = 0.965** and 27% less error than linear regression. SHAP shows that ambient temperature drives about 71% of the prediction.
+
+<sub>Python · scikit-learn · SHAP · statsmodels</sub>
+
+</td>
 <td width="50%" valign="top">
 
 **✈️ [US airline tweets: sentiment dashboard](https://github.com/rolandkeszi/USAir)** · [**live demo**](https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en)
@@ -74,6 +88,8 @@ An interactive Streamlit dashboard of 14,640 labelled tweets. **63% of the tweet
 <sub>Python · Streamlit · Plotly · pandas</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **📈 [The COVID-19 shock in the US labour market](https://github.com/rolandkeszi/bls-covid-labour-market)**
@@ -85,12 +101,20 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 <sub>R · REST API · dplyr · ggplot2</sub>
 
 </td>
+<td width="50%" valign="middle" align="center">
+
+### 🗂️ [See all case studies →](https://rolandkeszi.github.io)
+
+<sub>Question, data, method, results and limitations for every project on one page.</sub>
+
+</td>
 </tr>
 </table>
 
 | Project | What it does | Stack |
 |---|---|---|
 | 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/llm-sentiment-benchmark) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
+| ⚡ [**Power plant output prediction**](https://github.com/rolandkeszi/power-plant-output-prediction) | Seven regression models predict a combined cycle plant's output from four weather variables. The best is explained with SHAP and followed by an error analysis. | Python, scikit-learn, SHAP, statsmodels |
 | ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
 | 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/bls-covid-labour-market) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
@@ -108,7 +132,7 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 <img alt="Anthropic Claude" src="https://img.shields.io/badge/Claude%20API-191919?style=flat-square&logo=anthropic&logoColor=white"> <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white"> <img alt="Google Gemini" src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
 
 **Visualisation & apps**<br>
-<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"> <img alt="Plotly" src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"> <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"> <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"> <img alt="Google Colab" src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white">
+<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"> <img alt="Plotly" src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"> <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"> <img alt="SHAP" src="https://img.shields.io/badge/SHAP-explainable%20AI-8250df?style=flat-square"> <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"> <img alt="Google Colab" src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white">
 
 ---
 
