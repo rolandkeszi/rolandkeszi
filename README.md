@@ -8,6 +8,7 @@
 <p align="center">
   <a href="#featured-from-lexicons-to-frontier-llms--one-sentiment-task-12-models"><img alt="LLM benchmark" src="https://img.shields.io/badge/LLM%20benchmark-12%20models-8250df?style=flat-square&logo=openai&logoColor=white"></a>
   <a href="https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/rolandkeszi/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Roland%20Keszi-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="#projects"><img alt="Projects" src="https://img.shields.io/badge/projects-Python%20%7C%20R-0969da?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
@@ -135,5 +136,5 @@ További projektjeim: egy interaktív Streamlit-dashboard amerikai légitársas�
 ---
 
 <p align="center">
-  <sub>Open to research collaborations on LLM evaluation, text analytics and survey data. Feel free to open an issue or reach out on GitHub.</sub>
+  <sub>Open to research collaborations on LLM evaluation, text analytics and survey data. Reach me on <a href="https://www.linkedin.com/in/rolandkeszi/">LinkedIn</a>.</sub>
 </p>
