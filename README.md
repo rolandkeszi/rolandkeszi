@@ -1,15 +1,14 @@
 <h1 align="center">Roland Keszi</h1>
 
 <p align="center">
-  <b>Data science · NLP & LLM evaluation · Market and opinion research</b><br>
-  KROLIFY Research Institute · Hungary
+  <b>Data science · NLP & LLM evaluation · Survey and opinion research</b><br>
+  Hungary
 </p>
 
 <p align="center">
-  <a href="https://krolify.hu"><img alt="Website" src="https://img.shields.io/badge/krolify.hu-research-0969da?style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="https://krolify.hu/aktualis-kutatasok"><img alt="AI research" src="https://img.shields.io/badge/AI%20research-9%20topics-8250df?style=flat-square&logo=readthedocs&logoColor=white"></a>
+  <a href="#featured-from-lexicons-to-frontier-llms--one-sentiment-task-12-models"><img alt="LLM benchmark" src="https://img.shields.io/badge/LLM%20benchmark-12%20models-8250df?style=flat-square&logo=openai&logoColor=white"></a>
   <a href="https://rolandkeszi-sentiment-usair.streamlit.app"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
-  <a href="https://www.linkedin.com/company/krolify-research-institute/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-KROLIFY-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="#projects"><img alt="Projects" src="https://img.shields.io/badge/projects-Python%20%7C%20R-0969da?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
 ---
@@ -19,7 +18,7 @@
 - I combine **classical survey and market research methodology** with **modern machine learning and LLMs**.
 - My current focus is **evaluating language models** on real text: how well they reproduce human labels, where they fail, and what that costs.
 - I care about **reproducible, honest evaluation**: fixed samples, standard metrics, confusion matrices and a qualitative look at every error.
-- I put results in front of people with **interactive dashboards** (Streamlit, Plotly) and my research site, [krolify.hu](https://krolify.hu).
+- I turn results into **clear charts and interactive dashboards** (Streamlit, Plotly, ggplot2) that non-technical readers can act on.
 
 ---
 
@@ -61,12 +60,38 @@ I benchmarked four generations of NLP on the same job: classifying IMDb movie re
 
 ### Projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**✈️ [US airline tweets: sentiment dashboard](https://github.com/rolandkeszi/USAir)** · [**live demo**](https://rolandkeszi-sentiment-usair.streamlit.app)
+
+<a href="https://github.com/rolandkeszi/USAir"><img src="https://raw.githubusercontent.com/rolandkeszi/USAir/main/assets/sentiment-by-airline.svg" width="100%" alt="Sentiment split per US airline"></a>
+
+An interactive Streamlit dashboard of 14,640 labelled tweets. **63% of the tweets are negative**, and US Airways gets 8.4 negative tweets for every positive one. Customer service drives the most complaints.
+
+<sub>Python · Streamlit · Plotly · pandas</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**📈 [The COVID-19 shock in the US labour market](https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-)**
+
+<a href="https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-"><img src="https://raw.githubusercontent.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-/main/assets/covid-labour-market.svg" width="100%" alt="US unemployment, employment ratio and payrolls 2015-2026"></a>
+
+An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two months**, unemployment peaked at 14.8%, and payrolls took 28 months to recover.
+
+<sub>R · REST API · dplyr · ggplot2</sub>
+
+</td>
+</tr>
+</table>
+
 | Project | What it does | Stack |
 |---|---|---|
 | 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/TomegerzelemDetektalas) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
-| ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) · [**live**](https://rolandkeszi-sentiment-usair.streamlit.app) | An interactive dashboard of about 14,500 tweets about six US airlines. It shows the sentiment split per airline, a tweet map with an hour-of-day filter, and word clouds per sentiment. | Streamlit, Plotly, pandas |
-| 📈 [**Labour-market time series from the BLS API**](https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-) | Pulls US employment data from the Bureau of Labor Statistics API and charts the employment shock of COVID-19. | R, REST API |
-| 🔬 [**AI research topics at KROLIFY**](https://krolify.hu/aktualis-kutatasok) | Summaries, charts and key figures on nine applied AI areas. These include text mining, network analysis, process mining, deep learning, image recognition, optimisation and Big Data. | Research write-ups |
+| ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
+| 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
 ---
 
@@ -103,12 +128,12 @@ A klasszikus kérdőíves piac- és közvélemény-kutatás módszertanát köt�
 
 Kiemelt projektem egy 12 modellt összehasonlító szentimentelemzés. Lexikon alapú módszereket (TextBlob, VADER), neurális hálókat (egyszerű háló, CNN, LSTM), finomhangolt BERT-et és zero-shot LLM-eket (GPT, Claude, Gemini) vetettem össze ugyanazon az IMDb-feladaton. A legjobb pontosságot, 96,9%-ot, a GPT-5.3 Instant érte el, és minden LLM jobb volt a finomhangolt BERT-nél.
 
-További mesterséges intelligencia alapú kutatásaink: [krolify.hu/aktualis-kutatasok](https://krolify.hu/aktualis-kutatasok)
+További projektjeim: egy interaktív Streamlit-dashboard amerikai légitársaságokról szóló tweetek szentimentjéről, és egy R-ben írt elemzés, amely a BLS API adataiból mutatja be a COVID-19 munkaerőpiaci sokkját.
 
 </details>
 
 ---
 
 <p align="center">
-  <sub>Open to research collaborations on LLM evaluation, text analytics and survey data. Reach me via <a href="https://krolify.hu">krolify.hu</a>.</sub>
+  <sub>Open to research collaborations on LLM evaluation, text analytics and survey data. Feel free to open an issue or reach out on GitHub.</sub>
 </p>
