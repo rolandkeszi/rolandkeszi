@@ -114,6 +114,30 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+**🕸️ [Network structures in literature, social media and text](https://github.com/rolandkeszi/social-network-analysis)** · [**case study**](https://rolandkeszi.github.io/projects/network-analysis.html)
+
+<a href="https://rolandkeszi.github.io/projects/network-analysis.html"><img src="https://raw.githubusercontent.com/rolandkeszi/social-network-analysis/main/figures/01_network_hubs.png" width="100%" alt="Facebook friendship network with three hubs highlighted"></a>
+
+A **scale-free Facebook network** (4,039 users) with hubs 107, 1684 and 1912, a VOSviewer map of the sentiment analysis literature, and topical clusters in a tweet similarity network.
+
+<sub>Python · NetworkX · Gephi · VOSviewer</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**📷 [Finding matching points between photos with SIFT](https://github.com/rolandkeszi/sift-feature-matching)** · [**case study**](https://rolandkeszi.github.io/projects/sift.html)
+
+<a href="https://rolandkeszi.github.io/projects/sift.html"><img src="https://raw.githubusercontent.com/rolandkeszi/sift-feature-matching/main/figures/02_house_matches.png" width="100%" alt="SIFT matches between two photos of a house"></a>
+
+Keypoint detection and matching on my own photos of two buildings. A textured house gives **about 1,250 reliable matches**; a repetitive facade gives far fewer. Brute-force and FLANN matching are compared, with Lowe's ratio test.
+
+<sub>Python · OpenCV</sub>
+
+</td>
+</tr>
+<tr>
 <td colspan="2" align="center">
 
 ### 🗂️ [See all case studies →](https://rolandkeszi.github.io)
@@ -129,6 +153,8 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 | 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/llm-sentiment-benchmark) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
 | ⚡ [**Power plant output estimation**](https://github.com/rolandkeszi/power-plant-output-prediction) | Regression models estimate a combined cycle plant's output from four ambient variables. Variable selection was done in SPSS, and the final linear model was validated on an independent sample. | Python, scikit-learn, TensorFlow, SPSS |
 | 🏥 [**Hospital process mining**](https://github.com/rolandkeszi/hospital-process-mining) | Patient pathways, throughput times and staff workload reconstructed from a hospital event log, with three discovery algorithms compared. | Python, PM4Py, Graphviz |
+| 🕸️ [**Network analysis**](https://github.com/rolandkeszi/social-network-analysis) | A scale-free Facebook network with its hubs, a map of the sentiment analysis literature, and a tweet similarity network. | Python, NetworkX, Gephi, VOSviewer |
+| 📷 [**SIFT feature matching**](https://github.com/rolandkeszi/sift-feature-matching) | Keypoint detection and matching between photos of buildings, comparing brute-force and FLANN matching. | Python, OpenCV |
 | ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
 | 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/bls-covid-labour-market) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
