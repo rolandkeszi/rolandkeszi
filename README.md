@@ -92,6 +92,17 @@ An interactive Streamlit dashboard of 14,640 labelled tweets. **63% of the tweet
 <tr>
 <td width="50%" valign="top">
 
+**🏥 [Patient pathways and hospital resources](https://github.com/rolandkeszi/hospital-process-mining)** · [**case study**](https://rolandkeszi.github.io/projects/process-mining.html)
+
+<a href="https://rolandkeszi.github.io/projects/process-mining.html"><img src="https://raw.githubusercontent.com/rolandkeszi/hospital-process-mining/main/figures/09_bpmn.png" width="100%" alt="BPMN model of the patient pathway"></a>
+
+Process mining of a hospital event log (100 patients, 690 events): care pathways, throughput times and staff workload. **DFG, Petri net, BPMN and heuristic net**, with the alpha, inductive and heuristic miners compared on fitness, precision, generalization and simplicity.
+
+<sub>Python · PM4Py · Graphviz</sub>
+
+</td>
+<td width="50%" valign="top">
+
 **📈 [The COVID-19 shock in the US labour market](https://github.com/rolandkeszi/bls-covid-labour-market)**
 
 <a href="https://github.com/rolandkeszi/bls-covid-labour-market"><img src="https://raw.githubusercontent.com/rolandkeszi/bls-covid-labour-market/main/assets/covid-labour-market.svg" width="100%" alt="US unemployment, employment ratio and payrolls 2015-2026"></a>
@@ -101,7 +112,9 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 <sub>R · REST API · dplyr · ggplot2</sub>
 
 </td>
-<td width="50%" valign="middle" align="center">
+</tr>
+<tr>
+<td colspan="2" align="center">
 
 ### 🗂️ [See all case studies →](https://rolandkeszi.github.io)
 
@@ -115,6 +128,7 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 |---|---|---|
 | 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/llm-sentiment-benchmark) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
 | ⚡ [**Power plant output estimation**](https://github.com/rolandkeszi/power-plant-output-prediction) | Regression models estimate a combined cycle plant's output from four ambient variables. Variable selection was done in SPSS, and the final linear model was validated on an independent sample. | Python, scikit-learn, TensorFlow, SPSS |
+| 🏥 [**Hospital process mining**](https://github.com/rolandkeszi/hospital-process-mining) | Patient pathways, throughput times and staff workload reconstructed from a hospital event log, with three discovery algorithms compared. | Python, PM4Py, Graphviz |
 | ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
 | 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/bls-covid-labour-market) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
