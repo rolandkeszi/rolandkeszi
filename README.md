@@ -1,8 +1,8 @@
 <h1 align="center">Roland Keszi</h1>
 
 <p align="center">
-  <b>Data science · NLP & LLM evaluation · Survey and opinion research</b><br>
-  Hungary
+  <b>AI &amp; data science · LLM evaluation · NLP</b><br>
+  Turning survey and text data into insight · Hungary
 </p>
 
 <p align="center">
