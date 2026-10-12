@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="656" viewBox="0 0 860 656" role="img" aria-labelledby="t d">
+<title id="t">Sentiment classification accuracy on IMDb movie reviews, by model</title>
+<desc id="d">GPT-5.3 Instant: 96.9%; Claude Haiku 4.5: 96.2%; Claude Sonnet 4.6: 96.1%; GPT-4.1 mini: 95.8%; Gemini 2.5 Flash-Lite: 94.5%; Gemini 2.5 Flash: 93.4%; BERT-base (fine-tuned): 90.5%; LSTM: 86.8%; CNN: 85.0%; Simple NN: 74.6%; VADER: 69.9%; TextBlob: 69.0%</desc>
+<style>
+svg{--bg:#ffffff;--t1:#1f2328;--t2:#59636e;--grid:#d1d9e0;--llm:#2a78d6;--ft:#eb6834;--dl:#1baf7a;--lex:#eda100}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--t1:#f0f6fc;--t2:#9198a1;--grid:#3d444d;--llm:#3987e5;--ft:#d95926;--dl:#199e70;--lex:#c98500}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--t1)}
+.t2{fill:var(--t2)} .g{stroke:var(--grid);stroke-width:1}
+</style>
+<rect width="860" height="656" rx="8" fill="var(--bg)"/>
+<text x="24" y="34" font-size="18" font-weight="600">Same task, four generations of NLP</text>
+<text x="24" y="56" font-size="13" class="t2">Binary sentiment accuracy (%) on IMDb movie reviews — from lexicons to frontier LLMs</text>
+<line class="g" x1="200.0" y1="84" x2="200.0" y2="588"/>
+<text x="200.0" y="604" font-size="11" class="t2" text-anchor="middle">0%</text>
+<line class="g" x1="342.5" y1="84" x2="342.5" y2="588"/>
+<text x="342.5" y="604" font-size="11" class="t2" text-anchor="middle">25%</text>
+<line class="g" x1="485.0" y1="84" x2="485.0" y2="588"/>
+<text x="485.0" y="604" font-size="11" class="t2" text-anchor="middle">50%</text>
+<line class="g" x1="627.5" y1="84" x2="627.5" y2="588"/>
+<text x="627.5" y="604" font-size="11" class="t2" text-anchor="middle">75%</text>
+<line class="g" x1="770.0" y1="84" x2="770.0" y2="588"/>
+<text x="770.0" y="604" font-size="11" class="t2" text-anchor="middle">100%</text>
+<rect x="24" y="87" width="10" height="10" rx="2" fill="var(--llm)"/>
+<text x="40" y="96" font-size="12" font-weight="600" class="t2">LLM zero-shot prompting · 1,000-review sample</text>
+<text x="190" y="128" font-size="13" text-anchor="end">GPT-5.3 Instant</text>
+<path d="M200,112 h548.3 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-548.3 z" fill="var(--llm)"/>
+<text x="760.3" y="128" font-size="13" font-weight="600">96.9%</text>
+<text x="190" y="158" font-size="13" text-anchor="end">Claude Haiku 4.5</text>
+<path d="M200,142 h544.3 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-544.3 z" fill="var(--llm)"/>
+<text x="756.3" y="158" font-size="13" font-weight="600">96.2%</text>
+<text x="190" y="188" font-size="13" text-anchor="end">Claude Sonnet 4.6</text>
+<path d="M200,172 h543.8 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-543.8 z" fill="var(--llm)"/>
+<text x="755.8" y="188" font-size="13" font-weight="600">96.1%</text>
+<text x="190" y="218" font-size="13" text-anchor="end">GPT-4.1 mini</text>
+<path d="M200,202 h542.1 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-542.1 z" fill="var(--llm)"/>
+<text x="754.1" y="218" font-size="13" font-weight="600">95.8%</text>
+<text x="190" y="248" font-size="13" text-anchor="end">Gemini 2.5 Flash-Lite</text>
+<path d="M200,232 h534.6 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-534.6 z" fill="var(--llm)"/>
+<text x="746.6" y="248" font-size="13" font-weight="600">94.5%  <tspan class="t2" font-weight="400" font-size="11">n=998</tspan></text>
+<text x="190" y="278" font-size="13" text-anchor="end">Gemini 2.5 Flash</text>
+<path d="M200,262 h528.4 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-528.4 z" fill="var(--llm)"/>
+<text x="740.4" y="278" font-size="13" font-weight="600">93.4%  <tspan class="t2" font-weight="400" font-size="11">n=634*</tspan></text>
+<rect x="24" y="303" width="10" height="10" rx="2" fill="var(--ft)"/>
+<text x="40" y="312" font-size="12" font-weight="600" class="t2">Fine-tuned transformer · 1,200-review test set</text>
+<text x="190" y="344" font-size="13" text-anchor="end">BERT-base (fine-tuned)</text>
+<path d="M200,328 h511.9 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-511.9 z" fill="var(--ft)"/>
+<text x="723.9" y="344" font-size="13" font-weight="600">90.5%</text>
+<rect x="24" y="369" width="10" height="10" rx="2" fill="var(--dl)"/>
+<text x="40" y="378" font-size="12" font-weight="600" class="t2">Deep learning + GloVe embeddings · 10,000-review test set</text>
+<text x="190" y="410" font-size="13" text-anchor="end">LSTM</text>
+<path d="M200,394 h490.8 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-490.8 z" fill="var(--dl)"/>
+<text x="702.8" y="410" font-size="13" font-weight="600">86.8%</text>
+<text x="190" y="440" font-size="13" text-anchor="end">CNN</text>
+<path d="M200,424 h480.5 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-480.5 z" fill="var(--dl)"/>
+<text x="692.5" y="440" font-size="13" font-weight="600">85.0%</text>
+<text x="190" y="470" font-size="13" text-anchor="end">Simple NN</text>
+<path d="M200,454 h421.2 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-421.2 z" fill="var(--dl)"/>
+<text x="633.2" y="470" font-size="13" font-weight="600">74.6%</text>
+<rect x="24" y="495" width="10" height="10" rx="2" fill="var(--lex)"/>
+<text x="40" y="504" font-size="12" font-weight="600" class="t2">Lexicon-based baselines</text>
+<text x="190" y="536" font-size="13" text-anchor="end">VADER</text>
+<path d="M200,520 h394.4 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-394.4 z" fill="var(--lex)"/>
+<text x="606.4" y="536" font-size="13" font-weight="600">69.9%</text>
+<text x="190" y="566" font-size="13" text-anchor="end">TextBlob</text>
+<path d="M200,550 h389.3 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-389.3 z" fill="var(--lex)"/>
+<text x="601.3" y="566" font-size="13" font-weight="600">69.0%</text>
+<text x="24" y="626" font-size="11" class="t2">Test sets differ by approach, so compare within groups. *Gemini 2.5 Flash returned a valid label for only 634 of 1,000 reviews (API errors).</text>
+<text x="24" y="642" font-size="11" class="t2">Source notebooks: github.com/rolandkeszi/TomegerzelemDetektalas</text>
+</svg>
