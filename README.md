@@ -55,7 +55,7 @@ I benchmarked four generations of NLP on the same job: classifying IMDb movie re
 - **Lexicons are biased toward "positive".** TextBlob's recall is 0.95, but its precision is only 0.63.
 - **LSTM generalises best of the classic networks.** Its train–test gap is 1.1 points, against about 10 points for the CNN and the simple network.
 
-📂 Notebooks: [rolandkeszi/TomegerzelemDetektalas](https://github.com/rolandkeszi/TomegerzelemDetektalas)
+📂 Notebooks: [rolandkeszi/llm-sentiment-benchmark](https://github.com/rolandkeszi/llm-sentiment-benchmark)
 
 ---
 
@@ -76,9 +76,9 @@ An interactive Streamlit dashboard of 14,640 labelled tweets. **63% of the tweet
 </td>
 <td width="50%" valign="top">
 
-**📈 [The COVID-19 shock in the US labour market](https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-)**
+**📈 [The COVID-19 shock in the US labour market](https://github.com/rolandkeszi/bls-covid-labour-market)**
 
-<a href="https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-"><img src="https://raw.githubusercontent.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-/main/assets/covid-labour-market.svg" width="100%" alt="US unemployment, employment ratio and payrolls 2015-2026"></a>
+<a href="https://github.com/rolandkeszi/bls-covid-labour-market"><img src="https://raw.githubusercontent.com/rolandkeszi/bls-covid-labour-market/main/assets/covid-labour-market.svg" width="100%" alt="US unemployment, employment ratio and payrolls 2015-2026"></a>
 
 An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two months**, unemployment peaked at 14.8%, and payrolls took 28 months to recover.
 
@@ -90,9 +90,9 @@ An R pipeline on the BLS Public Data API. **21.9 million jobs were lost in two m
 
 | Project | What it does | Stack |
 |---|---|---|
-| 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/TomegerzelemDetektalas) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
+| 🤖 [**LLM vs. classical sentiment benchmark**](https://github.com/rolandkeszi/llm-sentiment-benchmark) | The 12-model comparison above. It covers prompt-based labelling through the OpenAI, Anthropic and Gemini APIs, BERT fine-tuning, CNN and LSTM networks on GloVe embeddings, and lexicon baselines. Each model gets confusion matrices and an error analysis. | Python, Hugging Face Transformers, Keras, scikit-learn |
 | ✈️ [**US airline tweets: sentiment dashboard**](https://github.com/rolandkeszi/USAir) | Interactive exploration by sentiment, airline and hour of day, with word clouds of what passengers write. | Streamlit, Plotly, pandas |
-| 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/BLS_EmploymentData-Retrieval-from-API-with-R-) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
+| 📈 [**COVID-19 labour-market shock (BLS API)**](https://github.com/rolandkeszi/bls-covid-labour-market) | An automated fetch → tidy → chart pipeline for official US labour statistics, with a reproducible CSV export. | R, REST API, ggplot2 |
 
 ---
 
