@@ -10,6 +10,7 @@
   <a href="#featured-from-lexicons-to-frontier-llms--one-sentiment-task-12-models"><img alt="LLM benchmark" src="https://img.shields.io/badge/LLM%20benchmark-12%20models-8250df?style=flat-square&logo=openai&logoColor=white"></a>
   <a href="https://rolandkeszi-sentiment-usair.streamlit.app/?lang=en"><img alt="Live demo" src="https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/rolandkeszi/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Roland%20Keszi-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://rolandkeszi.github.io/certificates.html"><img alt="Certificates" src="https://img.shields.io/badge/certificates-75-2da44e?style=flat-square&logo=coursera&logoColor=white"></a>
   <a href="#projects"><img alt="Projects" src="https://img.shields.io/badge/projects-Python%20%7C%20R-0969da?style=flat-square&logo=github&logoColor=white"></a>
 </p>
 
@@ -161,6 +162,14 @@ Keypoint detection and matching on my own photos of two buildings. A textured ho
 
 ---
 
+### Beyond the code
+
+- 🎤 **Workshop: _Voice for everyone!_** I initiated, organised and moderated a workshop on language technology, speech recognition and AAC (augmentative and alternative communication) at ELTE Innofair 2026, and gave the opening talk: epidemiological estimates of speech disability and a scientometric overview of language technology research. 129 people registered. [Workshop report →](https://rolandkeszi.github.io/innofair-workshop.html)
+- 🎓 **Certificates.** Five professional certificates (Google Data Analytics, Google Advanced Data Analytics, Google AI, IBM Generative AI Engineering, Microsoft Power BI Data Analyst) and two specializations (Machine Learning by Stanford · DeepLearning.AI, Natural Language Processing by DeepLearning.AI), 75 certificates with their courses. [All certificates →](https://rolandkeszi.github.io/certificates.html)
+- 🏛️ **Education.** PhD and master's degree in sociology (ELTE), an MBA (Corvinus University of Budapest) and a postgraduate programme in artificial intelligence. [Education →](https://rolandkeszi.github.io/education.html)
+
+---
+
 ### Toolbox
 
 **Languages & data**<br>
@@ -195,6 +204,9 @@ A klasszikus kérdőíves piac- és közvélemény-kutatás módszertanát köt�
 Kiemelt projektem egy 12 modellt összehasonlító szentimentelemzés. Lexikon alapú módszereket (TextBlob, VADER), neurális hálókat (egyszerű háló, CNN, LSTM), finomhangolt BERT-et és zero-shot LLM-eket (GPT, Claude, Gemini) vetettem össze ugyanazon az IMDb-feladaton. A legjobb pontosságot, 96,9%-ot, a GPT-5.3 Instant érte el, és minden LLM jobb volt a finomhangolt BERT-nél.
 
 További projektjeim: egy interaktív Streamlit-dashboard amerikai légitársaságokról szóló tweetek szentimentjéről, és egy R-ben írt elemzés, amely a BLS API adataiból mutatja be a COVID-19 munkaerőpiaci sokkját.
+
+
+Szerveztem és moderáltam az ELTE Innofair 2026 „Hangot mindenkinek!” workshopját a nyelvtechnológiáról, a beszédfelismerésről és az AAC-ről, ahol a nyitóelőadást is tartottam ([beszámoló](https://rolandkeszi.github.io/hu/innofair-workshop.html)). Tanúsítványaim (Google, IBM, Microsoft, Stanford · DeepLearning.AI) és végzettségeim a [Tanúsítványok](https://rolandkeszi.github.io/hu/certificates.html) és a [Végzettség](https://rolandkeszi.github.io/hu/education.html) oldalon láthatók.
 
 </details>
 
