@@ -166,7 +166,7 @@ Keypoint detection and matching on my own photos of two buildings. A textured ho
 
 - 🎤 **Workshop: _Voice for everyone!_** I initiated, organised and moderated a workshop on language technology, speech recognition and AAC (augmentative and alternative communication) at ELTE Innofair 2026, and gave the opening talk: epidemiological estimates of speech disability and a scientometric overview of language technology research. 129 people registered. [Workshop report →](https://rolandkeszi.github.io/innofair-workshop.html)
 - 🎓 **Certificates.** Five professional certificates (Google Data Analytics, Google Advanced Data Analytics, Google AI, IBM Generative AI Engineering, Microsoft Power BI Data Analyst) and two specializations (Machine Learning by Stanford · DeepLearning.AI, Natural Language Processing by DeepLearning.AI), 75 certificates with their courses. [All certificates →](https://rolandkeszi.github.io/certificates.html)
-- 🏛️ **Education.** PhD and master's degree in sociology (ELTE), an MBA (Corvinus University of Budapest) and a postgraduate artificial intelligence specialist engineer programme (University of Pannonia, Faculty of Engineering). [Education →](https://rolandkeszi.github.io/education.html)
+- 🏛️ **Education.** PhD and master's degree in sociology (ELTE University), an MBA (Corvinus University) and a postgraduate artificial intelligence specialist engineer programme (University of Pannonia - Faculty of Engineering). [Education →](https://rolandkeszi.github.io/education.html)
 
 ---
 
