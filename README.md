@@ -166,7 +166,7 @@ Keypoint detection and matching on my own photos of two buildings. A textured ho
 
 - 🎤 **Workshop: _Voice for everyone!_** I initiated, organised and moderated a workshop on language technology, speech recognition and AAC (augmentative and alternative communication) at ELTE Innofair 2026, and gave the opening talk: epidemiological estimates of speech disability and a scientometric overview of language technology research. 129 people registered. [Workshop report →](https://rolandkeszi.github.io/innofair-workshop.html)
 - 🎓 **Certificates.** Five professional certificates (Google Data Analytics, Google Advanced Data Analytics, Google AI, IBM Generative AI Engineering, Microsoft Power BI Data Analyst) and two specializations (Machine Learning by Stanford · DeepLearning.AI, Natural Language Processing by DeepLearning.AI), 75 certificates with their courses. [All certificates →](https://rolandkeszi.github.io/certificates.html)
-- 🏛️ **Education.** PhD and master's degree in sociology (ELTE), an MBA (Corvinus University of Budapest) and a postgraduate programme in artificial intelligence. [Education →](https://rolandkeszi.github.io/education.html)
+- 🏛️ **Education.** PhD and master's degree in sociology (ELTE), an MBA (Corvinus University of Budapest) and a postgraduate artificial intelligence specialist engineer programme (University of Pannonia, Faculty of Engineering). [Education →](https://rolandkeszi.github.io/education.html)
 
 ---
 
@@ -206,7 +206,7 @@ Kiemelt projektem egy 12 modellt összehasonlító szentimentelemzés. Lexikon a
 További projektjeim: egy interaktív Streamlit-dashboard amerikai légitársaságokról szóló tweetek szentimentjéről, és egy R-ben írt elemzés, amely a BLS API adataiból mutatja be a COVID-19 munkaerőpiaci sokkját.
 
 
-Szerveztem és moderáltam az ELTE Innofair 2026 „Hangot mindenkinek!” workshopját a nyelvtechnológiáról, a beszédfelismerésről és az AAC-ről, ahol a nyitóelőadást is tartottam ([beszámoló](https://rolandkeszi.github.io/hu/innofair-workshop.html)). Tanúsítványaim (Google, IBM, Microsoft, Stanford · DeepLearning.AI) és végzettségeim a [Tanúsítványok](https://rolandkeszi.github.io/hu/certificates.html) és a [Végzettség](https://rolandkeszi.github.io/hu/education.html) oldalon láthatók.
+Szerveztem és moderáltam az ELTE Innofair 2026 „Hangot mindenkinek!” workshopját a nyelvtechnológiáról, a beszédfelismerésről és az AAC-ről, ahol a nyitóelőadást is tartottam ([beszámoló](https://rolandkeszi.github.io/hu/innofair-workshop.html)). Tanúsítványaim (Google, IBM, Microsoft, Stanford · DeepLearning.AI) és végzettségeim (köztük a Pannon Egyetem Mérnöki Karának mesterséges intelligencia szakmérnök képzése) a [Tanúsítványok](https://rolandkeszi.github.io/hu/certificates.html) és a [Végzettség](https://rolandkeszi.github.io/hu/education.html) oldalon láthatók.
 
 </details>
 
