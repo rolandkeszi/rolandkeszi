@@ -18,7 +18,7 @@
 
 ### About me
 
-- **AI specialist engineer** (University of Pannonia), **PhD in sociology** (ELTE) and **MBA** (Corvinus University). I combine **classical survey and market research methodology** with **modern machine learning and LLMs**.
+- **AI specialist engineer** (University of Pannonia - Faculty of Engineering), **PhD in sociology** (ELTE University) and **MBA** (Corvinus University). I combine **classical survey and market research methodology** with **modern machine learning and LLMs**.
 - My current focus is **evaluating language models** on real text: how well they reproduce human labels, where they fail, and what that costs.
 - I care about **reproducible, honest evaluation**: fixed samples, standard metrics, confusion matrices and a qualitative look at every error.
 - I turn results into **clear charts and interactive dashboards** (Streamlit, Plotly, ggplot2) that non-technical readers can act on.
