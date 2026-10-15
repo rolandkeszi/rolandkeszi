@@ -18,7 +18,7 @@
 
 ### About me
 
-- **AI specialist engineer** (University of Pannonia - Faculty of Engineering), **PhD in sociology** (Eötvös Loránd University) and **MBA** (Corvinus University - Corvinus Business School). I combine **classical survey and market research methodology** with **modern machine learning and LLMs**.
+- **AI specialist engineer** (University of Pannonia - Faculty of Engineering, postgraduate artificial intelligence specialist engineer programme), **PhD in sociology** (Eötvös Loránd University - Faculty of Social Sciences) and **MBA** (Corvinus University - Corvinus Business School). I combine **classical survey and market research methodology** with **modern machine learning and LLMs**.
 - My current focus is **evaluating language models** on real text: how well they reproduce human labels, where they fail, and what that costs.
 - I care about **reproducible, honest evaluation**: fixed samples, standard metrics, confusion matrices and a qualitative look at every error.
 - I turn results into **clear charts and interactive dashboards** (Streamlit, Plotly, ggplot2) that non-technical readers can act on.
@@ -166,7 +166,7 @@ Keypoint detection and matching on my own photos of two buildings. A textured ho
 
 - 🎤 **Workshop: _Voice for everyone!_** I initiated, organised and moderated a workshop on language technology, speech recognition and AAC (augmentative and alternative communication) at ELTE Innofair 2026, and gave the opening talk: epidemiological estimates of speech disability and a scientometric overview of language technology research. 129 people registered. [Workshop report →](https://rolandkeszi.github.io/innofair-workshop.html)
 - 🎓 **Certificates.** Five professional certificates (Google Data Analytics, Google Advanced Data Analytics, Google AI, IBM Generative AI Engineering, Microsoft Power BI Data Analyst) and two specializations (Machine Learning by Stanford · DeepLearning.AI, Natural Language Processing by DeepLearning.AI), 75 certificates with their courses. [All certificates →](https://rolandkeszi.github.io/certificates.html)
-- 🏛️ **Education.** PhD in sociology (Eötvös Loránd University), a master's degree in sociology (ELTE - Faculty of Social Sciences), an MBA (Corvinus University - Corvinus Business School) and a postgraduate artificial intelligence specialist engineer programme (University of Pannonia - Faculty of Engineering). [Education →](https://rolandkeszi.github.io/education.html)
+- 🏛️ **Education.** PhD in sociology (Eötvös Loránd University - Faculty of Social Sciences), a master's degree in sociology (ELTE - Faculty of Social Sciences), an MBA (Corvinus University - Corvinus Business School) and a postgraduate artificial intelligence specialist engineer programme (University of Pannonia - Faculty of Engineering). [Education →](https://rolandkeszi.github.io/education.html)
 
 ---
 
@@ -206,7 +206,7 @@ Kiemelt projektem egy 12 modellt összehasonlító szentimentelemzés. Lexikon a
 További projektjeim: egy interaktív Streamlit-dashboard amerikai légitársaságokról szóló tweetek szentimentjéről, és egy R-ben írt elemzés, amely a BLS API adataiból mutatja be a COVID-19 munkaerőpiaci sokkját.
 
 
-Szerveztem és moderáltam az ELTE Innofair 2026 „Hangot mindenkinek!” workshopját a nyelvtechnológiáról, a beszédfelismerésről és az AAC-ről, ahol a nyitóelőadást is tartottam ([beszámoló](https://rolandkeszi.github.io/hu/innofair-workshop.html)). Tanúsítványaim (Google, IBM, Microsoft, Stanford · DeepLearning.AI) és végzettségeim (köztük a Pannon Egyetem Mérnöki Karának mesterséges intelligencia szakmérnök képzése) a [Tanúsítványok](https://rolandkeszi.github.io/hu/certificates.html) és a [Végzettség](https://rolandkeszi.github.io/hu/education.html) oldalon láthatók.
+Szerveztem és moderáltam az ELTE Innofair 2026 „Hangot mindenkinek!” workshopját a nyelvtechnológiáról, a beszédfelismerésről és az AAC-ről, ahol a nyitóelőadást is tartottam ([beszámoló](https://rolandkeszi.github.io/hu/innofair-workshop.html)). Tanúsítványaim (Google, IBM, Microsoft, Stanford · DeepLearning.AI) és végzettségeim (köztük a Pannon Egyetem Mérnöki Karának mesterséges intelligencia szakmérnök szakember képzése) a [Tanúsítványok](https://rolandkeszi.github.io/hu/certificates.html) és a [Végzettség](https://rolandkeszi.github.io/hu/education.html) oldalon láthatók.
 
 </details>
 
